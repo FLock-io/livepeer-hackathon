@@ -1,7 +1,7 @@
 import os
 from fastapi import FastAPI
 from livepeer_client import LivepeerText2VideoClient
-# import sc_utils as sc
+import sc_utils as sc
 
 
 app = FastAPI()
@@ -15,18 +15,18 @@ async def generate_video(prompt: str, video_name: str):
     return {"message": "Video generated and uploaded successfully"}
 
 
-# @app.post("/vote")
-# async def vote(video_uuid: str, from_address: str):
-#     # Call the vote function of the contract
-#     sc.vote(video_uuid, from_address)
-#     return {"message": "Vote cast successfully"}
+@app.post("/vote")
+async def vote(video_uuid: str, from_address: str):
+    # Call the vote function of the contract
+    sc.vote(video_uuid, from_address)
+    return {"message": "Vote cast successfully"}
 
 
-# @app.get("/get-votes")
-# async def get_votes(video_uuid: str) -> int:
-#     # Call the getVotes function of the contract
-#     num_vote = sc.get_votes(video_uuid)
-#     return num_vote
+@app.get("/get-votes")
+async def get_votes(video_uuid: str) -> int:
+    # Call the getVotes function of the contract
+    num_vote = sc.get_votes(video_uuid)
+    return num_vote
 
 
 # define the main function
