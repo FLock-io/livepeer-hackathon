@@ -35,6 +35,11 @@ Upon successful video generation:
 ## Voting and Feedback Mechanism
 
 1. **Voting on Videos**: Alongside feedback, community members can vote on their preferred videos. Each vote is recorded on a smart contract, ensuring transparency and immutability.
+
+![Sample UI Image](asset/image.png)
+This image represents the FLock user interface, where community members can watch and provide feedback on the generated videos.
+
+
 2. **Smart Contract Integration**: The smart contract keeps a tally of votes for each video submission, allowing the community to democratically select the best prompts.
 3. **Model Fine-tuning**: The collective feedback and voting results are used to fine-tune the text-to-video models, ensuring they meet the community's expectations and requirements.
 
