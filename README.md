@@ -1,4 +1,4 @@
-# FLock Hackson Submission for AI VIDEO DISRUPTOR
+# FLock Hackathon Submission
 ## Leveraging Livepeer for Decentralized Generative Model Building
 
 FLock is a cutting-edge platform designed to harness the power of community collaboration for the development and refinement of generative models. By integrating Livepeer's decentralized streaming infrastructure, FLock offers a unique approach to model training, prompt engineering, and feedback collection. We want to help community to build a video generation model that prefectly fits its need and enable them to use AI to generate more and more contents on Livepeer's platform.
